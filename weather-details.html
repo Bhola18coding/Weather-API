@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Details</title>
+    <link rel="stylesheet" href="weather-details.css">
+    <link rel="shortcut icon" href="icons/weather.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Wecome Section -->
+    
+    <div class="head-section">
+        <!-- Heading Seaction -->
+        <div class="heading-section">
+            <div class="header-1">Welcome To The Weather App</div>
+            <div class="header-2">Here is your current location</div>
+        </div>
+
+        <!-- Longitude and lattitude section -->
+
+        <div class="Longitude-and-Lattitude">
+            <div id="lat" class="card"></div>
+            <div id="long" class="card"></div>
+        </div>
+
+        <!-- map section -->
+        <div class="map">
+            <iframe id="view-map"></iframe>
+        </div>
+    </div>
+
+
+    <!-- weather data section -->
+    
+    <div class="data-section">
+
+        <!-- Header -->
+        <div class="weather-heading">Your Weather Data</div>
+
+        <!-- Categories -->
+
+        <div class="weather-details">
+            <div class="card" id="location"></div>
+            <div class="card" id="wind-speed"></div>
+            <div class="card" id="humidity"></div>
+            <div class="card" id="time-zone"></div>
+            <div class="card" id="pressure"></div>
+            <div class="card" id="wind-direction"></div>
+            <div class="card" id="uv-index"></div>
+            <div class="card" id="feels-like"></div>
+        </div>
+
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
